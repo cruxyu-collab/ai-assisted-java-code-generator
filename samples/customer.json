@@ -1,0 +1,23 @@
+{
+  "class_name": "Customer",
+  "fields": [
+    {
+      "name": "customerId",
+      "type": "long",
+      "required": true,
+      "description": "顧客ID"
+    },
+    {
+      "name": "customerName",
+      "type": "String",
+      "required": true,
+      "description": "顧客名"
+    },
+    {
+      "name": "active",
+      "type": "boolean",
+      "required": false,
+      "description": "有効フラグ"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: ai-assisted-java-code-generator
+Version: 0.1.0
+Summary: Validate structured design data before Java DTO generation.
+Requires-Python: >=3.11
+Requires-Dist: pydantic<3,>=2.6
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8; extra == "dev"

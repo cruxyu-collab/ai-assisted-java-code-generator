@@ -1,0 +1,25 @@
+# Python 実行環境・仮想環境
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Java コンパイル成果物
+*.class
+
+# 環境変数・認証情報（セキュリティ保護）
+.env
+.env.*
+!.env.example
+
+# 出力ディレクトリ（検証用サンプル成果物のみ追跡許可）
+output/*
+!output/.gitkeep
+!output/Customer.java
+
+# Excel 一時ファイル・OS生成ファイル
+~$*.xlsx
+~$*.xls
+Thumbs.db
+Desktop.ini
+.DS_Store
