@@ -39,3 +39,22 @@ Excel形式で作成されたテーブル定義書・項目定義書から、Goo
 - **データ契約検証**: Pydantic モデルにより、Java識別子規約および許可されたデータ型を厳格検査。
 - **Self-Correctionループ**: 抽出データに不整合があれば、バリデーション例外をLLMに自動再注入して自律修正。
 - **決定論的レンダリング**: 検証を完全に通過したデータのみを、純粋なPythonロジックで標準Javaコードへ書き出し。
+
+---
+
+## 📂 実機検証・入出力サンプル (Input & Output Showcase)
+
+本リポジトリでは、実際のExcel基本設計書仕様からJavaモデルクラスが出力される一連の変換結果を確認可能です：
+
+- 📄 **[入力: 基本設計書仕様 (samples/customer_design.xlsx)](samples/customer_design.xlsx)**
+- ☕ **[出力: 生成されたJavaモデルクラス (output/Customer.java)](output/Customer.java)**
+
+---
+
+## 📚 技術詳細ドキュメント
+
+- 📐 **[アーキテクチャ設計決定記録 (docs/ja/DECISIONS.md)](docs/ja/DECISIONS.md)**
+- 📋 **[要件定義仕様書 (docs/ja/REQUIREMENTS.md)](docs/ja/REQUIREMENTS.md)**
+- 📊 **[品質検証およびテスト実績報告書 (docs/ja/TEST_RESULTS.md)](docs/ja/TEST_RESULTS.md)**
+- 📈 **[プロジェクト進捗実績報告書 (docs/ja/PROJECT_STATUS.md)](docs/ja/PROJECT_STATUS.md)**
+- 🤝 **[システム運用・開発引き継ぎ仕様書 (docs/ja/HANDOFF.md)](docs/ja/HANDOFF.md)**
