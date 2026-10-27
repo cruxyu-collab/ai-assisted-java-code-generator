@@ -46,7 +46,7 @@ Excel形式で作成されたテーブル定義書・項目定義書から、Goo
 
 本リポジトリでは、実際のExcel基本設計書仕様からJavaモデルクラスが出力される一連の変換結果を確認可能です：
 
-- 📄 **[入力: 基本設計書仕様 (samples/customer_design.xlsx)](samples/customer_design.xlsx)**
+- 📄 **[入力: 基本設計書仕様 (Excelダウンロード: samples/customer_design.xlsx)](samples/customer_design.xlsx)**
 - ☕ **[出力: 生成されたJavaモデルクラス (output/Customer.java)](output/Customer.java)**
 
 ---
